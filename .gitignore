@@ -1,0 +1,28 @@
+*.cache
+*.config
+*.ipython
+*.local
+*.ssh
+*.vscode-server
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.bash_logout
+.bashrc
+.profile
+.gitconfig
+.wget-hsts
+.jupyter/migrated
+.jupyter/lab/user-settings/@jupyterlab/filebrowser-extension/browser.jupyterlab-settings
+.jupyter/lab/workspaces/default-37a8.jupyterlab-workspace
+bin/docker-compose
