@@ -1,3 +1,5 @@
+*snap
+*bin
 *.csv.gz
 *.cache
 *.config
