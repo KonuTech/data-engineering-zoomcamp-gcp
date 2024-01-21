@@ -1,0 +1,45 @@
+ssh-keygen -t rsa -f ~/.ssh/gcp -C pd2669 -b 2048
+
+
+ssh -i ~/.ssh/gcp pd2669@34.116.199.43
+
+
+> config
+
+Host de-zoomcamp
+	HostName 34.116.199.43
+	User pd2669
+	IdentityFile c:/Users/KonuTech/.ssh/gcp
+
+
+ssh de-zoomcamp
+
+
+wget https://github.com/docker/compose/releases/download/v2.24.1/docker-compose-linux-x86_64 -O docker-compose
+
+
+pgcli -h localhost -U root -d ny_taxi
+\dt
+
+
+pgdatabase
+root
+root
+
+
+export GOOGLE_CREDENTIALS='/home/pd2669/.ssh/my-creds.json'
+echo $GOOGLE_CREDENTIALS
+
+
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+
+
+GOOGLE_APPLICATION_CREDENTIALS=/home/pd2669/.ssh/my-creds.json
+
+
+gcloud auth activate-service-account --key-file $GOOGLE_APPLICATION_CREDENTIALS
+gcloud auth application-default login
+export PROJECT_NAME="ny-rides-alexey"
