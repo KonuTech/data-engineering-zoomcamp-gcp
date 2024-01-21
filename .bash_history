@@ -511,3 +511,102 @@ terraform apply
 terraform destroy
 terraform apply
 jupyter notebook
+lc
+ls
+cd data-engineering-zoomcamp-gcp/
+ls
+cd 02-workflow-orchestration/
+ls
+git clone https://github.com/mage-ai/mage-zoomcamp.git
+ls
+cd mage-zoomcamp/
+ls
+git clone https://github.com/mage-ai/mage-zoomcamp
+cd ..
+ls
+cd
+ls data-engineering-zoomcamp
+ls
+cd 02
+ls
+cd data-engineering-zoomcamp
+ls
+cd 02
+cd 02-workflow-orchestration/
+ls
+git clone https://github.com/mage-ai/mage-zoomcamp
+ls
+ls
+git status
+git add .
+git commit -m "added W02"
+git push
+git push origin master
+git status
+git add .
+git commit -m "added W02"
+git push origin master
+cd
+git status
+git add .
+git commit -m "added W02"
+git push origin master
+git status
+git add .
+git commit -m "added W02"
+git push origin master
+git status
+git add .
+git commit -m "added W02"
+git push origin master
+docker ps
+ls
+python
+python3
+pip list
+pip install black isort flake8
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration/magic-zoomcamp/data_loaders
+ls
+black load_api_data.py 
+docker ps
+docker-compose down
+docker ps
+docker rebuild
+docker-compose rebuild
+docker rebuild
+ls
+cd ..
+ls
+cd ..
+ls
+docker rebuild
+docker-rebuild
+docker-compose rebuild
+docker-compose build
+ls
+docker-compose up
+cd
+cd data-engineering-zoomcamp-gcp/
+cd 02-workflow-orchestration/
+ls
+Eventually, the code becomes visible, and there is always a repository nearby
+ls
+cd dev.env .env
+cp dev.env .env
+ls
+docker ps
+docker compose build
+docker-compose build
+docker ps
+ls
+docker-compose up
+ls
+docker ps
+gcloud compute instances describe [INSTANCE_NAME] --format='value(serviceAccounts[].scopes[])'
+gclaud auth login
+gcloud auth login
+gcloud compute instances describe
+gcloud compute instances describe big-bliss-411815
+gcloud compute instances describe de-zoomcamp 
+source /home/pd2669/.local/share/virtualenvs/pd2669-6sJiUV8g/bin/activate
+jupyter notebook

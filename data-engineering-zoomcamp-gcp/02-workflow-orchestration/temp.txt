@@ -1,0 +1,10 @@
+gcloud auth login
+gcloud compute instances describe de-zoomcamp
+
+
+SELECT * FROM `big-bliss-411815.demo_dataset.your_table2` LIMIT 1000
+INSERT INTO `big-bliss-411815.demo_dataset.your_table2` (column1)
+VALUES ('Your exemplary value 1'),
+       ('Your exemplary value 2'),
+       ('Your exemplary value 3')
+;
