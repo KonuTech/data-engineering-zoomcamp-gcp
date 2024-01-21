@@ -1,5 +1,3 @@
-*snap
-*bin
 *.csv.gz
 *.cache
 *.config
@@ -29,3 +27,6 @@ Thumbs.db
 .jupyter/lab/user-settings/@jupyterlab/filebrowser-extension/browser.jupyterlab-settings
 .jupyter/lab/workspaces/default-37a8.jupyterlab-workspace
 bin/docker-compose
+bin/terraform
+*snap
+
