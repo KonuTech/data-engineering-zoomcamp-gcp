@@ -455,3 +455,59 @@ git push
 git push origin master
 git push -f origin master
 ls
+git status
+git add .
+git commit -m "HW01
+
+
+"
+git push origin master
+git status
+git add .
+git commit -m "HW01
+
+
+"
+git push origin master
+cd data-engineering-zoomcamp-gcp
+ls
+cd 01-docker-terraform/
+ls
+cd 2_docker_sql/
+ls
+docker-compose up
+cd data-engineering-zoomcamp-gcp/
+ls
+cd 01-docker-terraform/
+ls
+cd 1_terraform_gcp/
+ls
+cd 1
+ls
+cd terraform/
+ls
+cd terraform_with_variables/
+ls
+terraform plan
+terraform destroy
+terraform apply
+git status
+git add .
+git commit -m "week01 terraform changes"
+git push
+git remote -v
+git push origin
+git push origin master
+docker --help
+docker build --help
+docker run --help
+docker run -it --entrypoint /bin/bash python:3.9
+docker ps
+docker run -it --entrypoint /bin/bash python:3.9
+jupyter notebook
+pgcli -h localhost -p 5431 -u root -d ny_taxi
+ls
+terraform apply
+terraform destroy
+terraform apply
+jupyter notebook
