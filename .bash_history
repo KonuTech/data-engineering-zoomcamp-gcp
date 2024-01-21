@@ -260,3 +260,198 @@ export PROJECT_NAME="ny-rides-alexey"
 echo $PROJECT_NAME
 gcloud auth application-default set-quota-project ${PROJECT_NAME}
 gcloud auth application-default login
+jupyter notebook
+ls
+rm -r 01-docker-terraform/
+ls
+cd data-engineering-zoomcamp/01-docker-terraform/2_docker_sql/
+ls
+docker-compose up
+ls
+docker-compose stop
+docker-compose up
+docker ps
+docker-compose down
+docker
+docker-compose stop
+cd data-engineering-zoomcamp/01-docker-terraform/2_docker_sql/
+ls
+docker-compose stop
+git status
+ls
+git status
+gti add .
+git commit -m "week 1"
+git push
+git status
+Ducktales Theme Song is a positive song by Cluster w
+git remote -v
+git status
+git remote -v
+git remote set-url origin https://github.com/KonuTech/data-engineering-zoomcamp.git
+git remote -v
+git remote set-url --push origin https://github.com/KonuTech/data-engineering-zoomcamp.git
+git remote -v
+git remote add upstream https://github.com/DataTalksClub/data-engineering-zoomcamp.git
+After running these commands, you can verify the changes using:
+git remote add upstream https://github.com/DataTalksClub/data-engineering-zoomcamp.git
+git remote -v
+git fetch upstream
+git status
+git add .
+git remote -v
+git commit -m "week 1"
+git push
+git fetch upstream
+git merge upstream/main
+git push origin main
+git remote -v
+git fetch upstream
+git checkout master
+git checkout origin
+it add .gitignore  # or add the specific files you want to commit
+git add .gitignore
+git commit -m "Committing changes before switching branches"
+git stash
+git stash apply
+git checkout master
+git checkout origin
+git status
+git add .
+git commit -m "Committing changes before switching branches"
+git push
+git fetch origin
+git checkout origin
+git origin main
+git add .gitignore
+git commit -m "Committing changes before switching branches"
+git pull origin main
+git pull --rebase origin main
+git add .
+git commit -m "Committing changes before pulling with rebase"
+git pull --rebase origin main
+git stash
+git pull --rebase origin main
+git stash apply
+git add pg-test-connection.ipynb upload-data.ipynb
+git merge --continue
+git commit -m "Merge branch 'main' of https://github.com/KonuTech/data-engineering-zoomcamp.git"
+git push origin main
+git reset --soft HEAD~1
+git status
+git rebase --skip
+git status
+git remote -v
+ls 
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir data-engineering-zoomcamp-gcp
+ls
+git status
+git add .
+git status
+git reset HEAD data-engineering-zoomcamp
+git status
+git commit -m "week 01 init"
+git push
+git remote -v
+git push origin
+git push -u origin branch_name
+git push -u origin
+git status
+git restore data-engineering-zoomcamp
+git status
+git restore data-engineering-zoomcamp
+git status
+git restore --source=HEAD --staged --worktree --recursive .
+git restore --source=HEAD --staged --worktree --source-prefix= -- . 
+git restore --source=HEAD --staged --worktree --source-prefix= -- .
+git status
+git add .
+git push
+git status -v
+git remote -v
+git status -v
+git restore --staged data-engineering-zoomcamp
+git restore data-engineering-zoomcamp
+git status -v
+git status
+it commit -m "Revert changes in data-engineering-zoomcamp"
+git commit -m "Revert changes in data-engineering-zoomcamp"
+git push origin master
+git status
+git status -v
+git commit -m "week01 init"
+git add .
+git commit -m "week01 init"
+git push origin master
+git status -v
+git add .
+git commit -m "week01 init"
+git push origin master
+git rm --cached bin/terraform
+git status -v
+git rm --cached snap
+git rm --cached snap/
+git rm --cached -r snap
+git rm --cached -r .terraform.d
+git status
+git add .
+git status
+git commit -m "week01 init"
+git push origin master
+git rm --cached -r .terraform.d
+git rm --cached .terraform.d/
+git status
+git commit -m "week01 init"
+git push origin master
+ls
+cd data-engineering-zoomcamp-gcp/
+ls
+cd 01-docker-terraform/
+ls
+cd 2_docker_sql/
+ls
+docker-compose up
+docker-compose stop
+cd
+ls
+git status
+git add .
+git commit -m "week01 init"
+git push origin master
+git rm --cached -r .terraform.d
+git status
+git add .
+git commit -m "week01 init"
+git push origin master
+git remove -v
+git remote -v
+git fetch upstream
+git merge upstream/main
+git pull upstream main
+git status
+git fetch upstream
+git pull upstream main
+git merge upstream/main
+git fetch upstream
+git fetch upstream -v
+git status
+git add .
+git commit -m "week01 init"
+git push origin master
+git fetch upstream
+git merge upstream/main
+git pull upstream main
+git status
+git reset --hard HEAD^
+git status
+git pusj
+git push
+git push origin master
+git push -f origin master
+ls
