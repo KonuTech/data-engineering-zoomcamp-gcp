@@ -1,34 +1,16 @@
-*.docker
-*.csv
-*.csv.gz
-*.cache
-*.config
-*.ipython
-*.local
-*.ssh
-*.vscode-server
 
-# Ignore compiled Python files
-*.pyc
-
-# Ignore virtual environment folder
-venv/
-
-# Ignore log files
-*.log
-
-# Ignore system files
 .DS_Store
-Thumbs.db
-.bash_logout
-.bashrc
-.profile
-.gitconfig
-.wget-hsts
-.jupyter/migrated
-.jupyter/lab/user-settings/@jupyterlab/filebrowser-extension/browser.jupyterlab-settings
-.jupyter/lab/workspaces/default-37a8.jupyterlab-workspace
-bin/docker-compose
-bin/terraform
-*snap
-
+.idea
+*.tfstate
+*.tfstate.*
+**.terraform
+**.terraform.lock.*
+**google_credentials.json
+**logs/
+**.env
+**__pycache__/
+.history
+**/ny_taxi_postgres_data/*
+serving_dir
+.ipynb_checkpoints/
+!week_6_stream_processing/avro_example/data/rides.csv
