@@ -610,3 +610,35 @@ gcloud compute instances describe big-bliss-411815
 gcloud compute instances describe de-zoomcamp 
 source /home/pd2669/.local/share/virtualenvs/pd2669-6sJiUV8g/bin/activate
 jupyter notebook
+ls
+whoami
+gcloud compute instances describe big-bliss-411815
+gcloud auth login
+gcloud compute instances describe big-bliss-411815
+gcloud compute instances describe de-zoomcamp
+ls
+cd
+ls
+git status
+git add .
+git status
+git commit -m "added W02"
+git push origin master
+docker-compose down
+docker-compose dawn
+source /home/pd2669/.local/share/virtualenvs/pd2669-6sJiUV8g/bin/activate
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+docker-compose build
+docker-compose up
+ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration/magic-zoomcamp/io_config.yaml
+ls -lah
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration/magic-zoomcamp/
+ls -lah
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+docker-compose up
+whomi
+whoami
+ls -lah
