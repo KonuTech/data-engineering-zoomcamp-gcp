@@ -642,3 +642,123 @@ docker-compose up
 whomi
 whoami
 ls -lah
+source /home/pd2669/.local/share/virtualenvs/pd2669-6sJiUV8g/bin/activate
+whoami
+ls -lah
+cd data-engineering-zoomcamp-gcp/
+ls
+cd
+ls
+git remote -v
+git checkout https://github.com/DataTalksClub/data-engineering-zoomcamp.gi
+git checkout https://github.com/DataTalksClub/data-engineering-zoomcamp.git
+git checkout
+git fetch upstream
+git checkout
+git merge upstream
+git merge upstream/main
+git pull upstream
+git pull upstream main
+git pull --allow-unrelated-histories upstream main
+git pull upstream main
+git commit -m "Merge completed"
+git pull upstream main
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls -lah
+cocker-compose up
+docker-compose up
+source /home/pd2669/.local/share/virtualenvs/pd2669-6sJiUV8g/bin/activate
+docker ps
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+ls -lah
+ls
+gcloud storage ls
+terraform
+gcloud auth list
+gcloud config set account `ACCOUNT`
+gcloud config set account `terraform-runner@big-bliss-411815.iam.gserviceaccount.com`
+gcloud config set account terraform-runner@big-bliss-411815.iam.gserviceaccount.com
+gcloud storage ls
+gcloud config set account pd2669@pjwstk.edu.pl
+gcloud storage ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+mkdir mage-terraform
+ls
+cd mage-terraform/
+ls
+git clone https://github.com/mage-ai/mage-ai-terraform-templates.git
+ls
+cd mage-ai-terraform-templates/
+ls
+cd gcp
+ls
+ls -lah
+ls
+terraform apply
+terraform init
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+terraform apply
+terraform
+terraform plan
+terraform apply
+gcloud sql instances delete mage-data-prep-db-instance
+terraform destroy
+terraform plan
+terraform apply
+gcloud storage ls
+gcloud auth list
+gcloud compute instances list
+terraform destroy
+gcloud sql instances delete mage-data-prep-db-instance
+terraform destroy
+terraform plan
+terraform apply
+terraform plan
+terraform apply
+terraform init
+terraform plan
+terraform apply
+gcloud run services list --region=europe-central2
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+docker-compose down
+cd
+ls
+git status
+git add data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/
+git rm --cached data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates
+git status
+git rm --cached data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates
+git rm --cached data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates -f
+git status
+git submodule add <url> data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates
+git submodule add data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates
+git submodule add ./data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates
+git status
+git add .
+git status
+git commit -m "M01"
+git push
+git push origin master
+git status
+git add .
+git commit -m "M01"
+git push origin master
+ls
+gcloud run services list --region=europe-central2
+gcloud survey
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration/mage-terraform/mage-ai-terraform-templates/gcp
+ls
+ls -lah
+terraform destroy
+gcloud sql instances delete mage-data-prep-db-instance
