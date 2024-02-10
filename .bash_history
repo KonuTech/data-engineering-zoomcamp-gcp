@@ -762,3 +762,36 @@ ls
 ls -lah
 terraform destroy
 gcloud sql instances delete mage-data-prep-db-instance
+whoami
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+docker-compose up
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls -lah
+cd ..
+ls -lah
+git remote -v
+git status
+cd
+ls -lah
+git status
+git add .
+git status
+git commit -m "HW02"
+git push origin master
+whoami
+echo /bin/bash
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/deactivate/bash/envVars.txt
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls -lah
+docker ps
+docker exec -it magic-zoomcamp-postgres psql -U postgres
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+ls -lah
+docker-compose up
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/deactivate/bash/envVars.txt
+echo /bin/bash
+whoami
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/deactivate/bash/envVars.txt
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
