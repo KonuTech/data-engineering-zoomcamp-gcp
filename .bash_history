@@ -795,3 +795,41 @@ echo /bin/bash
 whoami
 /bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.0/pythonFiles/deactivate/bash/envVars.txt
 /bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+who am i
+git status
+git add .
+git commit -m "HW03"
+git push origin master
+git status
+git add .
+git commit -m "HW03"
+git push origin master
+git remote
+git remote -h
+git remote -v
+git fetch upstream
+git merge upstream
+git merge upstream https://github.com/DataTalksClub/data-engineering-zoomcamp.git
+git merg
+git remote -v
+git fetch
+git merge upstream
+git fetch upstream
+git branch -r
+git fetch upstream/main
+git remote add upstream https://github.com/DataTalksClub/data-engineering-zoomcamp.git
+(pd2669-6sJiUV8g) pd2669@de-zoomcamp:~$ git remote add upstream https://github.com/DataTalksClub/data-engineering-zoomcamp.git
+fatal: remote upstream already exists.
+git fetch upstream
+git merge upstream/main
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls -lah
+docker-compose up
+docker ps
+docker-compose up
+cd 
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls
+docker-compose down
+docker-compose up
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
