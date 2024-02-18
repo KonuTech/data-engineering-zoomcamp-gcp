@@ -1,6 +1,4 @@
 *.docker
-*.csv
-*.csv.gz
 *.cache
 *.config
 *.ipython
