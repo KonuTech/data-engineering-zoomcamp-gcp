@@ -833,3 +833,12 @@ ls
 docker-compose down
 docker-compose up
 /bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+whoami
+git fetch upstream
+git merge upstream/main
+git status
+git add .
+git commit -m "M04"
+git push
+git origin push
+git push origin master
