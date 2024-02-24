@@ -842,3 +842,57 @@ git commit -m "M04"
 git push
 git origin push
 git push origin master
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ls
+git status
+git add .
+git commit -m "W04"
+git origin push
+git push origin/master
+git push origin master
+git push
+git push --set-upstream origin master
+git status
+git remote -v
+git push origin master
+git status
+git add /home/pd2669/data-engineering-zoomcamp-gcp/04-analytics-engineering
+git status
+git add -f /home/pd2669/data-engineering-zoomcamp-gcp/04-analytics-engineering/dbt_cloud_setup.md
+git status
+git clean -n
+git statu
+git status
+data-engineering-zoomcamp-gcp/04-analytics-engineering/taxi_rides_ny\
+/home/pd2669/data-engineering-zoomcamp-gcp/04-analytics-engineering/taxi_rides_ny
+git add /home/pd2669/data-engineering-zoomcamp-gcp/04-analytics-engineering/taxi_rides_ny
+git status
+git push
+git fetch upstream
+git merge upstream/main
+git status
+git push
+git push --set-upstream origin master
+git status
+git push
+git remote -v
+git remote set-url origin https://KonuTech@github.com/KonuTech/data-engineering-zoomcamp-gcp
+git push
+git push --set-upstream origin master
+git remote set-url origin https://KonuTech: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@github.com/KonuTech/data-engineering-zoomcamp-gcp
+git push
+git remote -v
+git push origin master
+https://github.com/KonuTech/data-engineering-zoomcamp-gcp.git
+ssh-keygen -t rsa -b 4096 -C "borowiec.k@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+git remote set-url origin git@github.com:KonuTech/data-engineering-zoomcamp-gcp.git
+git remote -v
+ssh -T git@github.com
+git status
+git push origin master
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ls
+whoami
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
