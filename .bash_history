@@ -896,3 +896,52 @@ git push origin master
 ls
 whoami
 /bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+C:/Users/KonuTech/AppData/Local/Programs/Python/Python37-32/python.exe /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls -lah
+git remote -v
+git status
+git remote set-url origin https://KonuTech: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@github.com/KonuTech/data-engineering-zoomcamp-gcp
+git config --global --add safe.directory /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+git remote -v
+git status
+git remote -v
+git remote set-url origin git@github.com:KonuTech/data-engineering-zoomcamp-gcp.git
+git push origin master
+cd ..
+git status
+git remote -v
+git fetch upstream
+git status
+git merge upstream/main
+git status
+git add .
+git status
+git commit -m "M05"
+git push origin master
+git pull
+git remote -v
+git pull git@github.com:KonuTech/data-engineering-zoomcamp-gcp.git
+git add data-engineering-zoomcamp-gcp/04-analytics-engineering/taxi_rides_ny/seeds/taxi_zone_lookup.csv
+git add /home/pd2669/04-analytics-engineering/taxi_rides_ny/seeds/taxi_zone_lookup.csv
+git commit -m "Add taxi_zone_lookup.csv file"
+git pull git@github.com:KonuTech/data-engineering-zoomcamp-gcp.git
+git stash
+git stash apply
+git pull git@github.com:KonuTech/data-engineering-zoomcamp-gcp.git
+git status
+git add .
+git commit -m "M05"
+git push origin master
+cd /home/pd2669/data-engineering-zoomcamp-gcp/02-workflow-orchestration
+ls -lah
+docker compose-up
+docker-compose up
+whoami
+git status
+gti add .
+git add .
+git status
+git commit -m "HW04"
+git push origin master
+git status
