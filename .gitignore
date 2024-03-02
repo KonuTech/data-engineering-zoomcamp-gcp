@@ -7,6 +7,15 @@
 *.vscode-server
 *.jupyter
 *.terraform.d
+*.vscode-server
+*spark
+*.csv.gz
+*.parquet
+*.crc
+*.ipynb_checkpoints
+*_SUCCESS
+*.gsutil
+*.jar
 
 # Ignore compiled Python files
 *.pyc

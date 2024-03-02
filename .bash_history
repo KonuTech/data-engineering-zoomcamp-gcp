@@ -945,3 +945,394 @@ git status
 git commit -m "HW04"
 git push origin master
 git status
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ls
+git status
+git remote -v
+git fetch upstream
+git status
+git merge upstream/main
+git status
+git add .
+git status
+git commit -m "M05"
+git push origin/master
+git push origin master
+git pull
+git pull git@github.com:KonuTech/data-engineering-zoomcamp-gcp.git
+git status
+git push origin master
+git status
+git add .
+git commit -m "M05"
+git push origin master
+git status
+cd data-engineering-zoomcamp-gcp/
+ls
+cd 05-batch/
+ls -lah
+mkdir spark
+cd spark/
+ls
+wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz
+ls
+tar xzfv ~/spark/openjdk-11.0.2_linux-x64_bin.tar.gz
+ls
+tar xzfv ~/openjdk-11.0.2_linux-x64_bin.tar.gz
+tar xzfv openjdk-11.0.2_linux-x64_bin.tar.gz
+ls -lah
+rm openjdk-11.0.2_linux-x64_bin.tar.gz
+ls
+export JAVA_HOME="${HOME}/spark/jdk-11.0.2"
+export PATH="${JAVA_HOME}/bin:${PATH}"
+which java
+java --version
+cd ..
+cd
+ls
+ls -lah
+echo JAVA_HOME
+echo $JAVA_HOME
+echo $PATH
+ls
+ls -lah
+make build
+make
+echo $PATH
+echo $JAVA_HOME
+echo $PATH
+make
+echo $PATH
+echo $JAVA_HOME
+spark shell
+spark
+spark-shell
+echo $JAVA_HOME
+echo $PATH
+echo $JAVA_HOME
+nano .bashrc
+spark-shell
+make
+spark-shell
+make
+spark-shell
+echo $JAVA_HOME
+echo $PATH
+spark-shell
+whoami
+spark-shell
+htop
+pip list
+pip install --upgrade pip
+pip list
+jupyter notebook
+pip install --upgrade notebook
+pip list
+jupyter notebook
+jupyterlab
+jupyter lab
+jupyter notebook
+jupyter notebook --ip=0.0.0.0 --port=8080 --allow-root
+ipython
+cd /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/data
+ls -lah
+wget https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv
+ls -lah
+jupyter notebook
+cd ..
+cd
+ls
+sudo apt update
+jupyter notebook --ip=127.0.0.1
+whoami
+jupyter notebook --ip=127.0.0.1
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+jupyter notebook
+pip uninstall Pyzmq
+pip install Pyzmq==19.0.2
+pipenv shell
+jupyter notebook
+pip uninstall jupyterlab
+pip uninstall jupyter
+pip list
+jupyter notebook
+exit
+jupyter notebook --ip=127.0.0.1
+pip freeze | grep -i jupyter | xargs pip uninstall -y
+pipenv freeze | grep -i jupyter | xargs pip uninstall -y
+pipenv list
+pipenv
+pipenv uninstall jupyter
+pipenv uninstall notebook
+exit
+jupyter notebook --ip=127.0.0.1
+pipenv
+exi
+exit
+whoami
+jupyter notebook
+jupyter-lab --generate-config
+jupyter notebook --ip=127.0.0.1
+pip uninstall notebook
+pip install notebook
+jupyter notebook --ip=127.0.0.1
+pip uninstall notebook
+pipenv
+pipenv shell
+pip uninstall notebook
+pip uninstall jupyterlab
+jupyter notebook --ip=127.0.0.1
+pip freeze | grep -i jupyter | xargs pip uninstall -y
+pipenv shell
+pip list
+jupyter notebook --ip=127.0.0.1
+pipenv shell
+pipenv --rm
+jupyter notebook
+pipenv shell
+pip list
+rnado                   6.4
+sudo pip3 uninstall tornado
+pip uninstall tornado
+pip install tornado==5.1.1
+pip uninstall tornado
+pip install jupyter
+jupyter notebook
+netstat -ano | findstr "888"
+apt install net-tools
+root apt install net-tools
+sudo apt install net-tools
+apt install net-tools
+netstat -ano | findstr "888"
+netstat -ano | grep "888"
+pip list
+pipenv uninstall install
+exit
+pipenv shell
+jupyter notebook
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+whoami
+jupyter notebook
+pip list
+pip uninstall pipenv
+pip uninstall jupyter notebook
+pip list
+pip uninstall notebook
+pip uninstall ipython
+pip uninstall nbconvert
+pip uninstall nbformat
+pip uninstall nbconvert
+pip uninstall nbformat
+pip uninstall nbconvert
+pip list
+pip uninstall jupyter_client
+pip list
+pip uninstall jupyter_client jupyter-console jupyter_core jupyter-events jupyter-lsp jupyter_server jupyter_server_terminals jupyterlab jupyterlab_pygments jupyterlab_server jupyterlab_widgets
+pip list
+pip install jupyter notebook
+jupyter notebook
+jupyter notebook --ip=127.0.0.1
+pip uninstall tornado
+jupyter notebook --ip=127.0.0.1
+pip install --upgrade --force-reinstall notebook
+jupyter notebook --ip=127.0.0.1
+exit
+pip list
+exit
+jupyter notebook --ip=127.0.0.1
+pip install --upgrade jupyterlab
+jupyter notebook --ip=127.0.0.1
+pip uninstall  jupyterlab
+pip uninstall  jupyter notebook
+exit
+pipenv --rm
+exit
+pipenv shel
+pipenv shell
+pip uninstall jupyterlab
+pip uninstall jupyter notebook
+jupyter notebook
+pipenv
+pip uninstall pipenv
+pipenv --rm
+pipenv shell
+pip uninstall pipenv
+pipenv --version
+pipenv shekk
+pipenv shell
+exit
+pip list
+pip uninstall jupyter_core jupyter_client jupyter_console jupyterlab jupyterlab_server notebook nbconvert nbformat
+pip uninstall jupyterlab
+pip uninstall jupyter notebook
+pip list
+pip install --upgrade 
+pip install --upgrade jupyterlab
+jupyter labextension install @jupyterlab/theme-light-extension
+sudo apt update
+sudo apt install nodejs npm
+jupyter labextension install @jupyterlab/theme-light-extension
+pip install --upgrade jupyterlab
+pip list
+jupyterlab
+jupyter lab
+jupyter notebook --ip=127.0.0.1
+pip install notebook
+jupyter notebook --ip=127.0.0.1
+pip install --upgrade jupyterlab
+raise httputil.HTTPOutputError(
+python -m pip install tornado
+pip install tornado
+python -m pip
+python3 -m pip
+python3 -m pip install tornado
+pip install --upgrade nbconvert
+dependencies:
+-tornado<6dependencies:
+pip uninstall tornado
+jupyter notebook --ip=127.0.0.1
+pip install tornado<6
+pip install tornado==5.1.1
+jupyter notebook --ip=127.0.0.1
+pip uninstall tornado
+jupyter notebook --ip=127.0.0.1
+pip install --upgrade notebook
+jupyter notebook --ip=127.0.0.1
+spark shell
+spark-shell
+whoami
+pip list
+jupyter notebook
+python
+python3
+sudo apt update
+sudo apt install python3-virtualenv
+virtualenv -p python3 zoomcamp
+source zoomcamp/bin/activate
+virtualenv -p python3 zoomcamp
+sudo pip3 install --upgrade virtualenv
+virtualenv -p python3.8 zoomcamp
+sudo pip3 uninstall virtualenv
+sudo pip3 install virtualenv
+python3.8 --version
+sudo apt update
+sudo apt upgrade
+virtualenv -p python3.9 zoomcamp
+virtualenv -p python3.8 zoomcamp
+virtualenv -p python3.7 zoomcamp
+virtualenv -p python3.8 zoomcamp
+source zoomcamp/bin/activate
+python3.8 -m venv zoomcamp
+sudo apt install python3.8-venv
+python3.8 -m venv zoomcamp
+source zoomcamp/bin/activate
+pip list
+pip install jupyter notebook
+pip list
+pip install notebook
+pip list
+spark-shell
+jupyter notebook
+ps -ef
+ps -u pd2669
+sudo kill -9 PID
+sudo killall -9 -q -w
+sudo reboot
+whoami
+source zoomcamp
+source zoomcamp/bin/activate
+pip lisrt
+pip list
+jupyter notebook
+pip list
+exit
+pip list
+/bin/python3 /home/pd2669/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/pd2669/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+jupyter notebook
+htop
+cd /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code
+ls -lah
+download_data yellow 2020
+download_data.sh yellow 2020
+download_data.sh
+ls
+download_data.sh
+./download_data.sh green 2020
+./download_data.sh yellow 2020
+./download_data.sh yellow 2021
+./download_data.sh green 2021
+htop
+lsof
+ls
+./download_data.sh yellow 2020
+du -ah
+ls
+cd data
+ls -lah
+cd raw
+tree
+sudo apt install tree
+cd ..
+ls
+tree
+cd /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code/data/report/revenue
+ls -lah
+ls
+ls lah
+ls -lah
+pwd
+cd ..
+ls
+pwd
+cd ..
+ls
+cd ..
+pwd
+ls
+cd code
+ls
+cd data
+ls
+ls -lahR
+ls -lah
+gsutil -m cp -r pq/ gs://pyspark-zoomcamp-pd2669/pq
+ls
+ls-lah
+cd /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code
+ls -lah
+mkdir lib
+cd lib
+ls
+gsutil cp gs://hadoop-lib/gcs/gcs-connector-hadoop3-2.2.5.jar gcs-connector-hadoop3-2.2.5.jar
+ls
+cd
+cd spark
+ls
+echo $SPARK_HOME
+ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code
+ls -lah
+gsutil cp 06_spark_sql.py gs://pyspark-zoomcamp-pd2669/code/
+gcloud dataproc jobs submit pyspark     --cluster=de-zoomcamp-cluster-m     --region=us-central1     gs://pyspark-zoomcamp-pd2669/code/06_spark_sql.py     --         --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2021/*/         --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2021/*/         --output=gs://pyspark-zoomcamp-pd2669/report-2021/
+gcloud dataproc jobs submit pyspark     --cluster=de-zoomcamp-cluster     --region=us-central1     gs://pyspark-zoomcamp-pd2669/code/06_spark_sql.py     --         --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2021/*/         --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2021/*/         --output=gs://pyspark-zoomcamp-pd2669/report-2021/
+gcloud dataproc jobs submit pyspark     --cluster=de-zoomcamp-cluster     --region=us-central1     gs://pyspark-zoomcamp-pd2669/code/06_spark_sql.py     --         --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2020/*/         --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2020/*/         --output=gs://pyspark-zoomcamp-pd2669/report-2020/
+gsutil cp 06_spark_sql_big_query.py gs://pyspark-zoomcamp-pd2669/code/
+gcloud dataproc jobs submit pyspark     --cluster=de-zoomcamp-cluster     --region=us-central1     gs://pyspark-zoomcamp-pd2669/code/06_spark_sql_big_query.py     --         --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2020/*/         --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2020/*/         --output=trips_data_all.reports-2020
+gsutil cp 06_spark_sql_big_query.py gs://pyspark-zoomcamp-pd2669/code/
+gcloud dataproc jobs submit pyspark     --cluster=de-zoomcamp-cluster     --region=us-central1     --jars=gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar     gs://pyspark-zoomcamp-pd2669/code/06_spark_sql_big_query.py     --         --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2020/*/         --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2020/*/         --output=trips_data_all.reports-2020
+whoami
+spark-shell
+whoami
+jupyter notebook
+sudo lsof -ti:8888
+sudo lsof -ti:8889
+sudo kill 1569
+lsof
+jupyter notebook
+sudo lsof -ti:8888
+sudo lsof -ti:8889
+jupyter notebook
+sudo lsof -ti:8888
+sudo lsof -ti:8888
+sudo lsof -ti:8889
+jupyter notebook

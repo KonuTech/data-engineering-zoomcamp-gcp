@@ -1,0 +1,50 @@
+jupyter notebook --ip=127.0.0.1
+
+gsutil -m cp -r pq/ gs://pyspark-zoomcamp-pd2669/pq
+gsutil cp gs://hadoop-lib/gcs/gcs-connector-hadoop3-2.2.5.jar gcs-connector-hadoop3-2.2.5.jar
+
+
+echo $SPARK_HOME
+
+
+gsutil cp 06_spark_sql.py gs://pyspark-zoomcamp-pd2669/code/
+
+
+--input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2021/*/
+--input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2021/*/
+--output=gs://pyspark-zoomcamp-pd2669/report-2021/
+
+
+gcloud dataproc jobs submit pyspark \
+    --cluster=de-zoomcamp-cluster \
+    --region=us-central1 \
+    gs://pyspark-zoomcamp-pd2669/code/06_spark_sql.py \
+    -- \
+        --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2021/*/ \
+        --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2021/*/ \
+        --output=gs://pyspark-zoomcamp-pd2669/report-2021/
+
+
+gcloud dataproc jobs submit pyspark \
+    --cluster=de-zoomcamp-cluster \
+    --region=us-central1 \
+    gs://pyspark-zoomcamp-pd2669/code/06_spark_sql.py \
+    -- \
+        --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2020/*/ \
+        --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2020/*/ \
+        --output=gs://pyspark-zoomcamp-pd2669/report-2020/
+
+-- each time the code is changed:
+gsutil cp 06_spark_sql_big_query.py gs://pyspark-zoomcamp-pd2669/code/
+
+
+gcloud dataproc jobs submit pyspark \
+    --cluster=de-zoomcamp-cluster \
+    --region=us-central1 \
+    --jars=gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar \
+    gs://pyspark-zoomcamp-pd2669/code/06_spark_sql_big_query.py \
+    -- \
+        --input_green=gs://pyspark-zoomcamp-pd2669/pq/green/2020/*/ \
+        --input_yellow=gs://pyspark-zoomcamp-pd2669/pq/yellow/2020/*/ \
+        --output=trips_data_all.reports-2020
+
