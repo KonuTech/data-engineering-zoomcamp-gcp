@@ -1336,3 +1336,92 @@ sudo lsof -ti:8888
 sudo lsof -ti:8888
 sudo lsof -ti:8889
 jupyter notebook
+ls ~/.virtualenvs
+ls ~/Envsls
+ls ~/.virtualenvs/zoomcamp
+ls ~/Envs/zoomcamp
+find ~/.virtualenvs -type d -name "bin" -o -name "Scripts" -exec dirname {} \; | sort -u
+ls -lah
+rm -rf zoomcamp
+ls -lah
+git status
+git add .
+git status
+git commit -m "HW05"
+git push origin master
+git status
+psql -f risingwave-sql/table/trip_data.sql
+cd /home/pd2669/data-engineering-zoomcamp-gcp/workshops/rising_wave/docker
+docker-compose up
+cd /home/pd2669/data-engineering-zoomcamp-gcp/workshops/rising_wave
+ls
+psql --version
+psycopg2-binary
+pip list
+ls
+source .venv/bin/activate
+pip list
+pip instal pgcli
+pip install pgcli
+pip list
+pgcli
+sudo service postgresql status
+sudo service postgresql start
+sudo apt update
+sudo apt install postgresql
+systemctl status postgresql
+ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/workshops/
+ls
+cd rising_wave/
+ls
+tree -L 1
+psql --version
+sudo apt install postgresql-client-common
+psql --version
+ls
+source commands.sh
+pssql
+psql
+source commands.sh
+start-cluster
+pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+pip list
+pip install -r requirements.txt
+ls
+stream-kafka
+chmod +x seed_kafka.py
+stream-kafka
+psql --version
+psql
+psql --version
+pgcli -h localhost -p 5431 -u root -d ny_taxi
+root:root
+pgcli -h localhost -p 5431 -u root -d ny_taxi
+psql -f risingwave-sql/table/trip_data.sql
+pgcli -f risingwave-sql/table/trip_data.sql
+psql -c 'SHOW TABLES;'
+psql
+sudo -u postgres psql
+\q
+psql -c 'SHOW TABLES;'
+sudo -u postgres psql
+psql -f risingwave-sql/table/trip_data.sql
+psql -c 'SHOW TABLES;'
+psql
+source commands.sh
+/home/pd2669/data-engineering-zoomcamp-gcp/workshops/rising_wave
+source commands.sh
+ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/workshops/rising_wave
+ls
+source commands.sh
+psq
+psql
+source .venv/bin/activate
+source commands.sh
+psql
+whoami
+jupyter notebook

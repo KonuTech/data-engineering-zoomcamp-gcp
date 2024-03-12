@@ -40,3 +40,4 @@ Thumbs.db
 bin/docker-compose
 bin/terraform
 *snap
+data-engineering-zoomcamp-gcp/workshops/*
