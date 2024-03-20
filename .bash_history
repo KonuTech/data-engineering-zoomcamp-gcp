@@ -1425,3 +1425,157 @@ source commands.sh
 psql
 whoami
 jupyter notebook
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/json_example
+ls -lah
+git status
+git fetch upstream
+git merge upstream/main
+git status
+git add .
+git status
+git commit -m "M06"
+git push origin master
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker/spark
+ls -lah
+./build.sh
+docker network  create kafka-spark-network
+docker network ls
+docker volume create --name=hadoop-distributed-file-system
+docker volume ls
+docker compose up -d
+ls -lah
+docker-compose up
+ls -lah
+producer.py
+python producer.py
+python3 producer.py
+whoami
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/json_example
+ls -lah
+python3 producer.py
+ls -lah
+cd ..
+ls
+ls -lah
+pip install requirements.txt 
+pip install -r requirements.txt 
+ls
+cd json_example/
+ls
+ls -lah
+python3 producer.py
+docker ps
+python3 consumer.py
+docker ps
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/avro_example
+ls
+python3 producer.py 
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/avro_example
+ls
+python3 consumer.py
+whoami
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker
+docker networks ls
+docker network ls
+docker volume ls
+docker image ls
+ls
+docker-compose up
+ls
+docker ps
+cd kafka/
+ls
+cd ..
+ls
+cd kafka
+ls
+docker-compose up
+docker ps
+docker-compose up
+docker ps
+docker image ls
+docker image rm d2c94e258dcb
+docker image rm -f d2c94e258dcb
+docker image ls
+docker image rm -f 42d0b9aa7106
+docker image rm -f 9e35b503f662
+docker image ls
+docker image rm -f d8d6643b3bd
+docker image ls
+docker image rm -f 3595702fda76
+docker image ls
+docker-compose up
+docker image ls
+df -h
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp/workshops/rising_wave
+du -sh /home/pd2669/01-docker-terraform
+du -sh /home/pd2669/05-batch
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp/05-batch
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code/fhvhv/2021/01
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code/data/raw
+du -sh /home/pd2669/data-engineering-zoomcamp-gcp/05-batch/code/data
+docker ps
+ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker/kafka
+ls
+docker-compose down
+docker ps
+cd .
+cd ..
+ls
+cd spark
+ls
+docker-compose down
+cd ..
+ls
+docker ps
+ls
+docker-compose up
+docker ps
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/redpanda_example
+docker-compose down
+docker ps
+docker stop 29b738e7790d
+docker ps
+cd /home/pd2669/data-engineering-zoomcamp-gcp/workshops/rising_wave/docker
+ls
+docker-compose down
+docker ps
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker/spark
+docker-compose down
+ls
+docker stop 9741c88be957
+docker stop 6c39f88d848d
+docker stop 83d2dbb89b0a
+docker stop 7a32f0b11dcf
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker
+docker-compose up
+whoami
+df -h
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker/kafka
+ls -lag
+ls -lah
+docker-compose up
+docker ps
+cd ..
+ls
+cd spark
+docker-compose up
+docker ps
+ls
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/streams-example/pyspark
+ls
+python3 producer.py
+python3 consumer.py
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/streams-example/pyspark/
+ls -lah
+./spark_submit.sh streaming.py
+ls
+./spark-submit.sh streaming.py
+docker ps
+cd /home/pd2669/data-engineering-zoomcamp-gcp/06-streaming/python/docker
+docker-compose down
+docker ps
+whoami
